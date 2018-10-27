@@ -1,5 +1,6 @@
 package org.dev4u.hv.guia1_moviles;
 
+import android.content.res.Configuration;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setTitle("Guia1_moviles_MM14-I04-001");
+        setTitle("MM14-I04-001");
         //inicializando controles
         lblEntrada      = (TextView) findViewById(R.id.lblEntrada);
         lblResultado    = (TextView) findViewById(R.id.lblResultado);
@@ -44,6 +45,14 @@ public class MainActivity extends AppCompatActivity {
         lstNumeros.add( (Button) findViewById(R.id.btn2));
         lstNumeros.add( (Button) findViewById(R.id.btn1));
         lstNumeros.add( (Button) findViewById(R.id.btn0));
+
+        if(getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE){
+            //Se cumple que sea Landscape entonces llamo a mis controles
+
+            lstNumeros.add( (Button) findViewById(R.id.btnPunto));
+            lstNumeros.add( (Button) findViewById(R.id.parentesisOpen));
+            lstNumeros.add( (Button) findViewById(R.id.parentesisClose));
+        }
 
 
         //operaciones matematicas  - aqui se agregarian las restantes
