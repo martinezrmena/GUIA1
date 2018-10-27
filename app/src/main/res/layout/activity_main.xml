@@ -74,6 +74,8 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#ef9a9a"
                                 android:text="AC"
+                                android:background="@drawable/boton_redondo"
+                                android:layout_margin="2dp"
                                 android:textColor="@android:color/background_light" />
 
                             <Button
@@ -82,6 +84,8 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#272525"
                                 android:text="7"
+                                android:background="@drawable/boton_redondo"
+                                android:layout_margin="2dp"
                                 android:textColor="@android:color/background_light" />
 
                         </LinearLayout>
@@ -98,6 +102,8 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#ef9a9a"
                                 android:text="DEL"
+                                android:background="@drawable/boton_redondo"
+                                android:layout_margin="2dp"
                                 android:textColor="@android:color/background_light" />
 
                             <Button
@@ -106,6 +112,8 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#272525"
                                 android:text="8"
+                                android:background="@drawable/boton_redondo"
+                                android:layout_margin="2dp"
                                 android:textColor="@android:color/background_light" />
 
                         </LinearLayout>
@@ -121,6 +129,8 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#272525"
                                 android:text="+"
+                                android:background="@drawable/boton_redondo"
+                                android:layout_margin="2dp"
                                 android:textColor="@android:color/background_light" />
 
                             <Button
@@ -129,6 +139,8 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#272525"
                                 android:text="9"
+                                android:background="@drawable/boton_redondo"
+                                android:layout_margin="2dp"
                                 android:textColor="@android:color/background_light" />
 
                         </LinearLayout>
@@ -145,6 +157,8 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#272525"
                                 android:text="-"
+                                android:background="@drawable/boton_redondo"
+                                android:layout_margin="2dp"
                                 android:textColor="@android:color/background_light" />
 
                             <Button
@@ -153,6 +167,8 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#272525"
                                 android:text="*"
+                                android:background="@drawable/boton_redondo"
+                                android:layout_margin="2dp"
                                 android:textColor="@android:color/background_light" />
                         </LinearLayout>
                     </LinearLayout>
@@ -174,6 +190,8 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#272525"
                                 android:text="4"
+                                android:background="@drawable/boton_redondo"
+                                android:layout_margin="2dp"
                                 android:textColor="@android:color/background_light" />
 
                             <Button
@@ -182,6 +200,8 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#272525"
                                 android:text="1"
+                                android:background="@drawable/boton_redondo"
+                                android:layout_margin="2dp"
                                 android:textColor="@android:color/background_light" />
                         </LinearLayout>
 
@@ -196,6 +216,8 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#272525"
                                 android:text="5"
+                                android:background="@drawable/boton_redondo"
+                                android:layout_margin="2dp"
                                 android:textColor="@android:color/background_light" />
 
                             <Button
@@ -204,6 +226,8 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#272525"
                                 android:text="2"
+                                android:background="@drawable/boton_redondo"
+                                android:layout_margin="2dp"
                                 android:textColor="@android:color/background_light" />
                         </LinearLayout>
 
@@ -218,6 +242,8 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#272525"
                                 android:text="6"
+                                android:background="@drawable/boton_redondo"
+                                android:layout_margin="2dp"
                                 android:textColor="@android:color/background_light" />
 
                             <Button
@@ -226,6 +252,8 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#272525"
                                 android:text="3"
+                                android:background="@drawable/boton_redondo"
+                                android:layout_margin="2dp"
                                 android:textColor="@android:color/background_light" />
                         </LinearLayout>
 
@@ -240,6 +268,8 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#272525"
                                 android:text="/"
+                                android:background="@drawable/boton_redondo"
+                                android:layout_margin="2dp"
                                 android:textColor="@android:color/background_light" />
 
                             <Button
@@ -248,6 +278,8 @@
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#9A7B0A"
                                 android:text="="
+                                android:background="@drawable/boton_redondo"
+                                android:layout_margin="2dp"
                                 android:textColor="@android:color/background_light" />
                         </LinearLayout>
                     </LinearLayout>
@@ -266,6 +298,8 @@
                             android:layout_weight="1"
                             android:backgroundTint="@color/colorPrimaryDark"
                             android:text="0"
+                            android:background="@drawable/boton_redondo"
+                            android:layout_margin="10dp"
                             android:textColor="@android:color/background_light" />
 
                     </LinearLayout>
